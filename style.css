@@ -1,5 +1,93 @@
+* {
+  padding: 0;
+}
+
 body {
   width: 100%;
   height: 100%;
   margin: 0;
+}
+
+.container {
+  padding: 0px 50px 0px 50px;
+}
+
+nav a {
+  background: grey;
+  font-size: 17px;
+}
+
+.centered figcaption {
+  text-align: center;
+  font-size: 12px;
+}
+
+.centered-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 0px 20px 20px 20px;
+}
+
+.centered-h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 20px 20px 0px 20px;
+}
+
+.paragraph {
+  text-align: center;
+  flex-shrink: 5;
+  padding: 20px;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3 {
+  justify-self: flex-start;
+  padding: 30px 0px 0px 0px;
+  margin: 0;
+}
+
+.footer-item p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+
+.footer-item ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+
+.footer-item li {
+  list-style: none;
+}
+
+#featured-property {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#details {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  background: red;
 }
